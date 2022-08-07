@@ -2,10 +2,9 @@ type: custom:apexcharts-card
 apex_config:
   chart:
     height: 400px
-graph_span: 7d5h24m
+graph_span: 7d
 span:
   start: day
-  offset: '-1d'
 now:
   show: true
   label: Nu
@@ -15,21 +14,21 @@ header:
 experimental:
   color_threshold: true
 series:
-  - entity: sensor.spot_price_dk1_2
+  - entity: sensor.spot_price_dk1
     type: area
     opacity: 0.5
     stroke_width: 2
     data_generator: |
       var data = entity.attributes.predictions.map((start, index) => {
-        return [new Date(start["dktime"]).getTime(), entity.attributes.predictions[index]["prediction"] / 1000 * 1.25];
+        return [new Date(start["dktime"]).getTime(), entity.attributes.predictions[index]["prediction"] / 100 * 1.25];
       });
       return data;
     color_threshold:
       - value: 0
         color: green
-      - value: 0.2
+      - value: 1
         color: yellow
-      - value: 0.4
+      - value: 1.9
         color: orange
-      - value: 0.6
+      - value: 2.8
         color: red
