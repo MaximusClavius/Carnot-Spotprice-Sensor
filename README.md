@@ -7,4 +7,4 @@ Sensor skal indsættes i configuration.yaml eller den fil du bruger til sensorer
 
 Diagramet bruger grøn, gul og rød farve for at marke forskelle pris, hvor grøn er lavest og rød højest.
 
-![image](https://user-images.githubusercontent.com/103023823/183310947-03abe9fc-4495-4ff3-9e5e-57e679baf713.png)
+![image](https://user-images.githubusercontent.com/103023823/183420319-5b029df0-15b9-49ec-895c-602ace03c452.png)
