@@ -20,15 +20,15 @@ series:
     stroke_width: 2
     data_generator: |
       var data = entity.attributes.predictions.map((start, index) => {
-        return [new Date(start["dktime"]).getTime(), entity.attributes.predictions[index]["prediction"] / 100 * 1.25];
+        return [new Date(start["dktime"]).getTime(), entity.attributes.predictions[index]["prediction"] / 1000 * 1.25];
       });
       return data;
     color_threshold:
       - value: 0
         color: green
-      - value: 1
+      - value: 3
         color: yellow
-      - value: 1.9
+      - value: 4
         color: orange
-      - value: 2.8
+      - value: 5
         color: red
