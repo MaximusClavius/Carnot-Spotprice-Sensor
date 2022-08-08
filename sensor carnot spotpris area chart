@@ -9,12 +9,12 @@ now:
   show: true
   label: Nu
 header:
-  title: Prognose på spotpriser (kr/kWh)
+  title: Carnots prognose på spotpriser (kr/kWh)
   show: true
 experimental:
   color_threshold: true
 series:
-  - entity: sensor.spot_price_dk1
+  - entity: sensor.carnot_spotpris_dk1
     type: area
     opacity: 0.5
     stroke_width: 2
