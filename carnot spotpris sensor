@@ -2,7 +2,7 @@ sensor spotpris:
   - platform: command_line
     name: Carnot spotpris DK1
     unit_of_measurement: "kr/kWh"
-    command: "curl -X 'GET' \ 'https://whale-app-dquqw.ondigitalocean.app/openapi/get_predict?energysource=offshorewindpower&region=dk1&daysahead=7' \ -H 'accept: application/json' \ -H 'apikey: 4a908368df66664f9fee15f375aacff2a847f8e43f197ac6df57c0af0376adf4' \ -H 'username: clavius@nalnet.dk'"
+    command: "curl -X 'GET' \ 'https://whale-app-dquqw.ondigitalocean.app/openapi/get_predict?energysource=spotprice&region=dk1&daysahead=7' \ -H 'accept: application/json' \ -H 'apikey: 4a908368df66664f9fee15f375aacff2a847f8e43f197ac6df57c0af0376adf4' \ -H 'username: clavius@nalnet.dk'"
     scan_interval:
         hours: 2
     value_template: '{% if value_json is not none %}OK - {{value_json["predictions"][0]["addedtime"]}}{% else %}Unavailable{% endif %}'
