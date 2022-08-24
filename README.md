@@ -5,6 +5,7 @@ Et projekt som findes: https://www.carnot.dk, og som laver prognoser 7 dage frem
 
 Sensor skal indsættes i configuration.yaml eller den fil du bruger til sensorer i HA.
 
+"Tilføj kort" til din brugergrænseflade/dashboard, og vælg apexcharts-card. Så kopier du koden ind vinduet til venstre, så skulle grafen komme til syne i højre vindue.
 Diagramet bruger grøn, gul og rød farve for at marke forskelle pris, hvor grøn er lavest og rød højest.
 
 ![image](https://user-images.githubusercontent.com/103023823/183442330-8b9001a8-89b4-4f08-867b-d1780cdfcbd0.png)
