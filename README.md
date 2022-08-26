@@ -8,3 +8,6 @@ Sensor skal indsættes i configuration.yaml eller den fil du bruger til sensorer
 "Tilføj kort" til din brugergrænseflade/dashboard, og vælg apexcharts-card. Så kopier du koden ind vinduet til venstre, så skulle diagrammet komme til syne i højre vindue. Diagramet bruger grøn, gul og rød farve for at markere forskelle pris, hvor grøn er lavest og rød højest.
 
 ![image](https://user-images.githubusercontent.com/103023823/183442330-8b9001a8-89b4-4f08-867b-d1780cdfcbd0.png)
+
+PS
+Viser diagrammet "Loading" i stedet for data fra sensor, så er formentlig noget gal med formattering af koden eller ikke komplet kopiering. Vælg ikon "Copy raw content" på Github, og brug Ctrl+a for at markere al tekst og indsæt/erstat med Ctrl+v...
