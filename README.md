@@ -6,7 +6,8 @@ Et projekt som findes: https://www.carnot.dk, og som laver prognoser 7 dage frem
 TO-DO:
 1) Tilføj sensor
 2) Tilføj kort (Søjlediagram)
-Ad 1: 
+
+Ad 1:
 Hele koden til sensor smides ind i configuration.yaml eller bruger du separat fil til sensorer, så alle linjer undtagende den første (som starter med sensor). Eventuel "TJEK KONFIGURATION" og derefter "GENSTART"! Alternativt kan man nøjes ned "GENINDLÆS KOMMANDOLINJE ENTITETER", hvis denne funktionalitet er aktiveret.
 
 Ad 2:
