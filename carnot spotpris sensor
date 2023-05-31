@@ -1,7 +1,6 @@
 sensor spotpris:
   - platform: command_line
     name: Carnot prognose DK1
-    unit_of_measurement: "kr/kWh"
     command: "curl -X 'GET' \ 'https://whale-app-dquqw.ondigitalocean.app/openapi/get_predict?energysource=spotprice&region=dk1&daysahead=7' \ -H 'accept: application/json' \ -H 'apikey: <API_KEY>' \ -H 'username: <USER_NAME>'"
     scan_interval:
         hours: 2
